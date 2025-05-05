@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+.begin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.begin-button {
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #e94560;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.begin-button:hover {
+    background-color: #0f3460;
+}
+
+.character-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 90vh;
+}
+
+.aspect-display {
+    flex: 1;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 24px;
+}
+
+.moon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moon-button img {
+    width: 150px;
+    height: auto;
+}
