@@ -8,14 +8,16 @@
 <body>
     <div class="character-container">
         <div class="character-image">
-            <img id="class-image" src="" alt="Character Image" style="display:none;">
+            <img id="class-image" src="" style="display:none;">
         </div>
         <div class="aspect-display">
             <h2 id="aspect-name">Click the Moon!</h2>
         </div>
         <button class="moon-button" onclick="cycleAspect()">
-            <img src="moon.png" alt="Moon Button">
+            <img src="moon_animation.gif">
         </button>
+        <button class ="restart-button" onclick ="restartGame()">RESTART</button>
+        <button class="nextPage1" onclick="nextPage1()" style = "display: none;">NEXT</button>
     </div>
 
     <script src="script.js"></script>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boss Battle: Chikawa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="boss-container">
+        <h1>Boss Battle: Chikawa</h1>
+        
+        <div class="battle-area">
+            <div class="player-section">
+                <h2>Your Hero</h2>
+                <img id="player-image" src="" alt="Your Character">
+            </div>
+        
+            <div class="boss-section">
+                <h2>Chikawa</h2>
+                <img id="boss-image" src="chikawa-placeholder.png" alt="Chikawa">
+            </div>
+        </div>
+        
+
+        <div class="battle-result" id="battle-result">
+            <p>Prepare for battle!</p>
+        </div>
+
+        <button onclick="startBossFight()">FIGHT</button>
+        <button class="restart-button" onclick="restartGame()">RESTART</button>
+        <button class="nextPage2" onclick="nextPage2()" style="display: none;">NEXT</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
